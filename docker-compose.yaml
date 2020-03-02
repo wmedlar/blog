@@ -2,7 +2,11 @@ version: "2"
 services:
   jekyll:
     image: jekyll/jekyll:pages
-    command: ["jekyll", "serve", "--trace"]
+    command:
+    - jekyll
+    - serve
+    - --incremental
+    - --trace
     ports:
     - 4000:4000
     volumes:

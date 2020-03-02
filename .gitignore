@@ -1,2 +1,5 @@
+# file modification metadata used for jekyll's incremental builds
+.jekyll-metadata
+
 # jekyll-generated assets
-_site
+_site/
